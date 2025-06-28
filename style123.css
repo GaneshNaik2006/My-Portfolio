@@ -234,7 +234,7 @@ html, body {
     flex-direction: column;
     position: relative;
     width: 100vw;
-    height: clamp(300px,60vw,600px);
+    height: clamp(450px,60vw,600px);
     justify-content: center;
 }
 .boxes{
@@ -388,7 +388,8 @@ html, body {
  .skills{
    /* background: linear-gradient(135deg, #2d0b42, #1a103f, #0a0014); */
    /* height: 100vh; */
-   padding-bottom: 200px;
+   padding-bottom: 120px;
+   /* border: solid white 1px; */
 
    }
    #skillsHeading{
@@ -462,7 +463,7 @@ font-family: 'Poppins', sans-serif;
 font-weight: bold;
 font-size: 3rem;
 text-align: center;
-margin-top: 2rem;
+/* margin-top: 1rem; */
 margin-bottom: 2rem;
 } 
 
@@ -911,7 +912,5 @@ footer p {
 .contact-section{
    background: linear-gradient(135deg, #2d0b42, #1a103f, #0a0014);
 }
-.contact-info{
-  background: #0a0014;
-}
+
 }
