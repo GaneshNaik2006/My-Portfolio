@@ -458,7 +458,7 @@ background-clip: text;
 color: transparent;  
 font-family: 'Poppins', sans-serif;
 font-weight: bold;
-font-size: 3rem;
+font-size: 3.2rem;
 text-align: center;
 margin-top: 2rem;
 margin-bottom: 2rem;
@@ -476,7 +476,7 @@ margin-top: 5vh;
 border: none;
 
 transition: all .2s ease-in;
-margin-bottom: 2rem;
+margin-bottom: 2.5vh;
 }
 
 .more{
