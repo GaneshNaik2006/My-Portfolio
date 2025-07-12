@@ -14,6 +14,7 @@
         Ganesh
     </div>
     <div class="HSPA">
+      <button class="cross" onclick="sideclosebar()">⨉</button>
        <a href="#">Home</a>
        <a href="#">About me</a>
        <a href="#">My Skills</a>
@@ -24,7 +25,7 @@
     <div class="contact_us">
         <button>Contact Me</button>
     </div>
-    <p>≡</p>
+   <button class="bar" onclick="opensidebar()">≡</button>
 </div>
 <div class="intro_section">
     <div class="intro">
@@ -199,7 +200,7 @@
   </div>
 </footer>
 
-    <script>
+    <script src="script.js">
         const container = document.querySelector('.education_container');
         window.addEventListener("scroll", function () {
         const glowElements = document.querySelectorAll('.glow-start');

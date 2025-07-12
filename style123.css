@@ -43,6 +43,9 @@ html, body {
   font-size: 0.8rem;
   flex-wrap: wrap;
 }
+.cross{
+  display: none;
+}
 
 .header a {
   text-decoration: none;
@@ -70,7 +73,7 @@ html, body {
   font-weight: 700;
 }
 
-.header p {
+.bar {
   display: none;
 }
 
@@ -721,14 +724,45 @@ height: 20vh;
     font-size: 0.7rem;
   }
 
-  .contact_us button, .header a {
+  .contact_us button {
     display: none;
+  }
+  .HSPA{
+    position:fixed;
+    top:0;
+    right:-100%;
+    flex-direction: column;
+    width:30vw;
+    background-color:#2d0b42;
+    z-index:10;
+    transition: right 0.3s ease;
+  }
+  .cross{
+    display: block;
+    background: none;
+    border: none;
+    margin-right: auto;
+    font-size: 1.5rem;
+    color:white;
+
+  }
+  .show{
+    right:0;
+  }
+
+  .bar {
+    display: block;
+    font-size: 2rem;
+    background:none;
+    border: none;
+    color:white;
   }
 
   .header p {
     display: block;
     font-size: 1rem;
   }
+
 
   .intro {
     width: 90%;
