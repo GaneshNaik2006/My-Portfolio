@@ -11,6 +11,7 @@ html, body {
   width: 100%;
   background: linear-gradient(135deg, #2d0b42, #1a103f, #0a0014);
   background-attachment: fixed;
+  scroll-behavior: smooth;
 }
 
 .header {
