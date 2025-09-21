@@ -402,19 +402,20 @@ html, body {
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
-      color: transparent;
+      color:transparent;
       font-family: 'Poppins',sans-serif;
       font-size: 3.5em;
       padding-top: 1em;
-
+ 
     } 
 
 
     .skillsGrid{
       display: grid;
-      grid-template-columns: repeat(4,1fr);
+      grid-template-columns: repeat(3,1fr);
       justify-items: center;
       align-items: center;
+      
       gap: 1em;
       margin-top: 5em;
       }
@@ -496,11 +497,11 @@ justify-content: center;
 display: flex;
 justify-content: center;
 align-items: center;
-gap: 10vw;
+gap: 5vw;
 }
 
 .pic img  {
-width: 25vw;
+width: 20vw;
 height: 30vh;
 border-radius: 1rem; 
 /* aspect-ratio: 3/4; */
@@ -511,7 +512,7 @@ transition: all .2s ease-in;
 }
 
 .pic a{
-width: 25vw;
+width: 20vw;
 height: 30vh;
 border-radius: 1rem; 
 
